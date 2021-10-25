@@ -1,5 +1,3 @@
-// Created on Poesty’s iPad.
-
 #include <stdio.h>
 #include <string.h>
 int main() {

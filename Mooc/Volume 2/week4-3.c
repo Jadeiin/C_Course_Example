@@ -1,7 +1,4 @@
-// Created on Poesty’s iPad.
-
 #include <stdio.h>
-
 int main() {
    int i,x,a[10];
    int *h=0;
