@@ -1,14 +1,12 @@
-// Created on Poesty’s iPad.
-
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
 int solve(char ch[],int i)
 {
-   int le=strlen(ch)-1,num=0,index=1;
+   int le=strlen(ch),num=0,index=1;
    while(le!=0)
    {
-      num+=index * (isdigit(ch[le-1])?(int)(ch[le-1]-'0'):(int)(ch[le-1]-'A'+1));
+      num+=index * (isdigit(ch[le-1])?(int)(ch[le-1]-'0'):(int)(ch[le-1]-'A'+10));
       index *= i;
       le--;
    }
@@ -25,14 +23,13 @@ int Max(char M[])
    }
    return maxM;
 }
-int main() {
-   char M[20],N[20];
+int main(void) {
+   char M[30],N[30];
    int i,m,x;
    scanf("%s %s",M,N);getchar();
    int mM=Max(M),mN=Max(N);
    int max=mM>mN?mM:mN;
    int min=mM>mN?mN:mM;
-//   int m=solve(M),n=solve(N);
    for(i=min+1;i<37;++i)
    {
       for(m=max+1;m<37;++m)

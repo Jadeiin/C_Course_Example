@@ -1,4 +1,3 @@
-// Created on Poesty’s iPad.
 #include <string.h>
 #include <stdio.h>
 int judge(char ch[])
