@@ -1,9 +1,6 @@
-// Created on Poesty’s iPad.
-
 #include <stdio.h>
-
-int main() {
-   // printf() displays the string inside quotation
-   printf("Hello, World!");
-   return 0;
+int main()
+{
+    printf("Welcome\nto\nBeijing.\n");
+    return 0;
 }
