@@ -6,3 +6,4 @@ You can also check these repository:
 2. [BIT-CS-Learning](https://github.com/songshangru/BIT-CS-Learning)
 3. [BITCS-final-exam-learning-materials](https://github.com/Sharpiless/BITCS-final-exam-learning-materials)
 4. [C-Language-Learning](https://github.com/cnsdrzwpx/C-Language-BIT)
+5. [cbit](https://github.com/TT2TER/cbit)
