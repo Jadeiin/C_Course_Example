@@ -7,10 +7,10 @@ int main() {
    int flag=0;
    for(int i=0;i<b-a;++i)
    {
-   	char n4[22]={0};
-   	for(int j=0;j<22;++j)
-   	{
-   		n4[j]+=n1[j]+n2[j];
+   		char n4[23]={0};
+   		for(int j=0;j<22;++j)
+   		{
+   			n4[j]+=n1[j]+n2[j];
 			n4[j+1]=n4[j]/10;
 			n4[j]%=10;
 		}

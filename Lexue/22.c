@@ -1,18 +1,19 @@
 #include <stdio.h>
+#include <math.h>
 int main(void)
 {
 	long long i;
-	int x,flag=0;
+	int x;
 	scanf("%lld",&i);
 	while(i--)
 	{
-		flag=0;
+		int flag=0;
 		for(x=2;x<=(int)sqrt(i);++x)
 		{
-		if(i%x==0)break;
-		if(x==(int)sqrt(i))flag=1;
+			if(i%x==0)break;
+			if(x==(int)sqrt(i))flag=1;
 		}
-	if(flag==1){printf("The max prime number is %d.",i);break;}
+		if(flag){printf("The max prime number is %lld.",i);break;}
 	}
 	putchar('\n');
 	return 0;

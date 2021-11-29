@@ -13,7 +13,7 @@ int judge(char c1[],char c2[])
 }
 int main(void)
 {
-	int flag,n,x=0,y=0,k,i,c3[501],c4[501],c5[501];
+	int n,k,i,c3[501],c4[501],c5[501];
 	scanf("%d\n",&n);
 	char c,pun,c1[500],c2[500],temp[500];
 	while(n--)
@@ -23,7 +23,7 @@ int main(void)
 		memset(c3,0,sizeof(int)*501);
 		memset(c4,0,sizeof(int)*501);
 		memset(c5,0,sizeof(int)*501);
-		x=0;y=0;flag=0;
+		int x=0,y=0,flag=0;
 		while((c=getchar())!='+'&&c!='-') c1[x++]=c;
 		pun=c;
 		while((c=getchar())!='\n')c2[y++]=c;

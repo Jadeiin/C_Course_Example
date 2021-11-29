@@ -2,7 +2,7 @@
 #include <math.h>
 int main(void)
 {
-	int n,row,col,x,num;
+	int n,row,col;
 	scanf("%d",&n);
 	for(row=1;row<=2*n-1;row++)
 	{

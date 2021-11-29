@@ -3,7 +3,6 @@
 int main(void)
 {
 	int x,high=11,low=0;
-	int num[10];
 	char up[] ="too high";
 	char down[] ="too low";
 	char right[] ="right on";

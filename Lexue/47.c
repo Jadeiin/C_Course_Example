@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-	int count=0,temp,i,x,n,m,flag=0;
+	int count=0,i,x,n,m,flag=0;
 	scanf("%d %d",&n,&m);
 	int a[n],b[m];
 	for(i=0;i<n;++i)scanf("%d",&a[i]);
@@ -15,7 +15,7 @@ int main(void)
 	{
 		flag=i;
 		for(x=i;x<m;++x)if(b[flag]>b[x])flag=x;
-		temp=b[i];
+		int temp=b[i];
 		b[i]=b[flag];
 		b[flag]=temp;
 	}

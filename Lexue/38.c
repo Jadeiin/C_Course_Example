@@ -3,7 +3,6 @@
 int main(void)
 {
 	char ch[60]={'0'};
-	char newch[60]={'0'};
 	int num=0,index;
 	char c;
 	while((c=getchar())!=' ')

@@ -2,7 +2,7 @@
 #include <stdio.h>
 int judge(char ch[]) {
 	int length=strlen(ch);
-	int x,y;
+	int x;
 	for(x=0; x<length-1; ++x) {
 		if((ch[x+1]-ch[x])<0)return 1;
 	}

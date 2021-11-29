@@ -6,8 +6,7 @@ int cmp(char c1[],char c2[])
 	int l1=strlen(c1),l2=strlen(c2),i;
 	if(l1>l2) return 1;
 	else if(l1<l2) return 0;
-	else if(l1==l2) 
-		for(i=0;i<l1;++i) 
+	else for(i=0;i<l1;++i) 
 			if(c1[i]>c2[i]) return 1;
 			else if(c1[i]<c2[i]) return 0;
 	return 2;

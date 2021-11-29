@@ -1,12 +1,11 @@
 #include <stdio.h>
 int main(void)
 {
-	int h,row,x,col,num;
+	int h,row,col,num;
 	scanf("%d %d",&h,&num);
-	const int N=num;
 	for(row=1;row<=h;++row)
 	{
-		x=3*h-2;
+		int x=3*h-2;
 		if(row==1)
 		for(col=1;col<=x;++col)
 		{
@@ -23,7 +22,7 @@ int main(void)
 				if(num==0)num=9;
 				else num--;
 			}
-			else if(col==x)
+			else
 			{
 				if(num==9)num=0;
 				else num++;
@@ -77,7 +76,7 @@ int main(void)
 				if(num==0)num=9;
 				else num--;
 			}
-			else if(col==x)
+			else
 			{
 				if(num==9)num=0;
 				else num++;

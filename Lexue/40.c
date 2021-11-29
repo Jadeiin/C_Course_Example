@@ -25,7 +25,7 @@ int Max(char M[])
 }
 int main(void) {
    char M[30],N[30];
-   int i,m,x;
+   int i,m;
    scanf("%s %s",M,N);getchar();
    int mM=Max(M),mN=Max(N);
    int max=mM>mN?mM:mN;
